@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-form" id="login-form">
+        <h1></h1>
+    <form action="submit" class="form" method="get">
+        <p>Welcome back! 👋</p>
+        <h1>Sign up to your account</h1>
+        <label for="name"></label>
+        Your name
+        <br>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email"></label>
+        Your email
+        <br>
+        <input type="email" id="email" required>
+        <br>
+        <label for="password"></label>
+        Password
+        <br>
+        <input type="password" id="password" required>
+        <br>
+        <label for=""></label>
+        Confirm Password
+        <br>
+        <input type="password" id="confirm-pass" required>
+        <br>
+        <button type="submit" id="btn">CONTINUE</button>
+        <p id="error">Error: All fields are mandatory!</p>
+    </form>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="100vw" height="100vh" viewBox="0 0 1280 485" fill="none">
+        <path d="M0 0L1280 350V485H0V0Z" fill="white"/>
+      </svg>
+</div>
+<div class="sign-up" id="sign-up">Don’t have an account? <a id="sign" href="./index.html"> Sign up</a></div>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
